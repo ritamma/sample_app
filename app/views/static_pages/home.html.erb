@@ -1,7 +1,14 @@
+<div class="center container-fluid bg-light p-5 text-sm-center ">
 
-<% provide(:title, "Home") %>
+  <h1>Welcome to the Sample App</h1>
+  <h2>
+    This is the home page for the Ruby on Rails tutorial
+  </h2>
 
-<h1>Sample App</h1>
-<p>This is the home page for the Ruby on Rails tutorial</p>
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%#= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
+
 
 
