@@ -1,4 +1,6 @@
-<div class="center container-fluid bg-light p-5 text-sm-center ">
+<%= stylesheet_link_tag "custom", "data-turbo-track": "reload" %>
+
+<div class="center bg-warning">
 
   <h1>Welcome to the Sample App</h1>
   <h2>
@@ -6,9 +8,10 @@
   </h2>
 
   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+
 </div>
 
-<%#= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
+<%= link_to image_tag("railslogo.png", width: 150, alt: "Rails logo"), 'http://rubyonrails.org/' %>
 
 
 
